@@ -82,13 +82,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.232.85.53:8082/repository/mavenwebproject/</url>
+	      <name>maven-releases</name>
+	      <name>http://52.91.80.247:8081/repository/maven-releases/</name>
+	      <url></url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.232.85.53:8082/repository/mavenwebproject-snapshpts/</url>
+	      <name>maven-snapshots</name>
+	      <url>http://52.91.80.247:8081/repository/maven-snapshots//</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
