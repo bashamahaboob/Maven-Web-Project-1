@@ -6,7 +6,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
 <<<<<<< HEAD
   <name>Maven Web Project 22nd dec</name>
 =======
@@ -87,12 +87,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-releases/</url>
+	      <url>http://18.215.178.247:8081/repository/maven-release-suji/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-snapshots</url>
+	      <url>http://18.215.178.247:8081/repository/maven-SNAPSHOT-Suji/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
