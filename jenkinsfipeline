@@ -1,0 +1,31 @@
+node {
+	   
+	stage('Checkout'){
+
+          git 'https://github.com/Sujithadevops1/Maven-Web-Project.git'
+
+       }
+
+       stage('BuildArtifact'){
+          // build step
+          
+         def mvn_version = 'M2_HOME'
+         withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
+          sh "mvn clean package"
+}
+       }
+             stage('Sonar') {
+                    //add stage sonar
+	      	 def mvn_version = 'M2_HOME'
+               withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
+              sh "mvn sonar:sonar"
+                }
+      }
+      stage('deploy') {
+	
+			  
+				sh  'cp $WORKSPACE/target/*.war /opt/apache-tomcat-9.0.12/webapps'
+}
+
+
+}
