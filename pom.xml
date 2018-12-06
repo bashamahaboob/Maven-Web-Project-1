@@ -82,14 +82,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>mvn-release</name>
-	      
-	    <url>http://52.27.127.45:8081/repository/mvn_release/</url>
+	      <name>nexus-release</name>
+	    <url>http://54.244.219.248:8081/repository/nexus-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>mvn-snapshot</name>
-	      <url>http://52.27.127.45:8081/repository/mvn-snapshot/</url>
+	      <name>nexus-snapshot</name>
+	      <url>http://54.244.219.248:8081/repository/nexus-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
