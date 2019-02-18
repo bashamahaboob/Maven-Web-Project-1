@@ -6,7 +6,7 @@
   <groupId>com.mt.web</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Maven Web Project July9th</name>
   <description>war Web Project for Java</description>
 
@@ -83,7 +83,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>nexus-release</name>
-	    <url>http://54.244.219.248:8081/repository/nexus-release/</url>
+	    <url>http://34.221.181.43:8081/repository/maven-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
