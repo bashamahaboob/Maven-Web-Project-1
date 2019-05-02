@@ -1,0 +1,6 @@
+projectKey=com.mt:maven-web-project
+serverUrl=http://54.163.162.253:9000
+serverVersion=7.7.0.23042
+dashboardUrl=http://54.163.162.253:9000/dashboard?id=com.mt%3Amaven-web-project
+ceTaskId=AWp2oQNXuuEPJnwJ19XK
+ceTaskUrl=http://54.163.162.253:9000/api/ce/task?id=AWp2oQNXuuEPJnwJ19XK
