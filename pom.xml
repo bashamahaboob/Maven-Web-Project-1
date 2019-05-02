@@ -81,12 +81,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>suji</name>
-	      <url>http://54.212.116.149:8081/repository/suji/</url>
+	      <url>http://54.163.162.253:8081/repository/Maven-Remote-Repo-Release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>sujisnap</name>
-	      <url>http://54.212.116.149:8081/repository/sujisnap/</url>
+	      <url>http://54.163.162.253:8081/repository/Maven-Remote-Repo-Snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
