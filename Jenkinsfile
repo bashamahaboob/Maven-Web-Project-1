@@ -1,5 +1,5 @@
 #!groovy
-pipeline ()
+node ()
 {
     //GitHub
     stage('Checkout')
